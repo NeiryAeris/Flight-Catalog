@@ -47,7 +47,7 @@ public class TransferFlight {
     @Column(name = "effective_month", nullable = false)
     private LocalDate effectiveMonth;
 
-    @Column(nullable = false)
+    @Column(name = "active", nullable = false)
     private Boolean active = true;
 
     @Column(name = "created_at", nullable = false, updatable = false)
